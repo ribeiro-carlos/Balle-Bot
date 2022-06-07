@@ -14,16 +14,22 @@
 </head>
 
 <body>
-  <header class="header">
-    <div><img class="header-imagem" src="/img/logo 1.svg" alt="logo comunidade Ballerini" srcset=""></div>
-    <nav class="header-menu">
-      <a class="header-menu-item" href="">Comunidade Ballerini</a>
-      <a class="header-menu-item" href="">Tutorial</a>
-      <a class="header-menu-item" href="">Open Source</a>
-      <a class="header-menu-item" href="">Comandos</a>
+  <header id="header" class="container">
+    <a id="logo" href=""><img src="/img/balleBot.svg" alt=""></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="https://discord.com/invite/wagxzStdcR">Comunidade Ballerini</a></li>
+        <li><a href="/">Tutorial</a></li>
+        <li><a href="/">Open Source</a></li>
+        <li><a href="/">Comandos</a></li>
+      </ul>
     </nav>
-
   </header>
+
+
   <main class="conteudo">
     <section class="conteudo-principal">
       <div class="conteudo-principal-escrito">
@@ -50,6 +56,7 @@
       <p>Criado por: <a href="https://carlosribeiro.netlify.app/">Carlos Ribeiro</a>.</p>
     </div>
   </footer>
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
